@@ -1,0 +1,237 @@
+.navbar-inverse .brand {
+	color: #ffffff;
+}
+
+.navbar-inverse .brand:hover {
+	background-color: inherit;
+    color: #D3D3D3;
+}
+
+.navbar-inverse .brand:active {
+	background-color: inherit;
+    color: #D3D3D3;
+}
+
+.navbar-inverse .nav > li > a {
+	color: #ffffff;
+}
+
+.navbar-inverse .nav > li > a:hover {
+    background-color: inherit;
+    color: #D3D3D3;
+}
+
+.navbar-inverse .nav > li > a:active {
+	background-color: inherit;
+    color: #D3D3D3;
+}
+
+/* Modal Sizing */
+.modal-body {
+	max-height: 800px;
+}
+
+body .modal {
+    /* new custom width */
+    width: 80%;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+    margin-left: -40%;
+}
+
+.modal-header {
+  padding-bottom:0px;
+}
+
+.modal-body {
+  padding-top:0px;
+}
+
+/* Club name boxes */
+.item {
+  width: 130px;
+  height: 100px;
+  margin: 5px;
+  background-color: #dceadb; 
+}
+
+/* Content wrappers */
+.body {
+  position: fixed;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-family: helvetica;
+}
+
+#content {
+width: 920px;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+.fixed-header {
+  position:fixed;
+  text-align:center;
+  background-color:white;
+  margin-top:0px;
+  padding-top:5px;
+  height:140px;
+}
+
+.masthead {
+  height: 80px;
+  max-width: 1000px;
+}
+  
+.container {
+  /*margin: 51px auto 0px;*/
+  max-width: 940px;
+}
+
+#container {
+  height: 80%;
+}
+
+/* Color when hover over links */
+a:hover {
+color: #000000;
+text-decoration: none;
+}
+
+a {
+color: #851423;
+}
+
+/* Isotope styles */
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/* Boxes for isotope */
+.box {
+font-size: 15px;
+letter-spacing: .8px;
+text-align: center;
+line-height: 120%;
+color: #474747; 
+padding: 30px;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+width: 108px;
+height: 108px;
+background: #ececec;
+margin-bottom: 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.box:hover {
+background: #f9f9f9;
+border-top: opacity: 0.9;
+}
+
+.box-small {
+font-size: 13px;
+letter-spacing: .9px;
+text-align: center;
+line-height: 110%;
+color: #474747; 
+padding: 30px;
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+width: 90px;
+height: 90px;
+background: #ececec;
+margin-bottom: 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.box-small:hover {
+background: #f9f9f9;
+opacity: 0.9;
+}
+
+/* homepage banner, hero-unit, overwrites */
+
+.hero-unit {
+  background-color: #F5F5F5;
+  margin-bottom: -50px;
+  margin-top: -50px;
+}
+
+.hero-unit h1 {
+  margin-bottom: 0;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: inherit;
+}
+
+/* Navbar overwrites */
+.navbar .btn-navbar {
+color: #212121;
+}
+
+.navbar {
+	margin-top: 0;
+	width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
