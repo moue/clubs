@@ -25,12 +25,17 @@ Clubs
 * Lists all 500+ student organizations and club sports on one page  
 * Allows real-time search of keywords (matching on organization name)  
 * Filter by organization type (including new catagory of athletics)
+* Each club has its own pop-up with club information
 
 SQL + Scraping
 -
-* Screen scraped organizations from OSL Student Organizations list: osl.fas.harvard.edu/student-organizations  
-* Screen scraped club sports from gocrimson.com  
+* Screen scraped organizations from [OSL Student Organizations list](http://osl.fas.harvard.edu/student-organizations)
+* Screen scraped club sports from [Crimson Athletics page](http://www.gocrimson.com/)
 * Scraping folder includes scraping scripts
+
+Guides
+-
+User guide to choosing clubs with potential to become blog post series. 
 
 Built With
 ==
