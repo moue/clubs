@@ -42,8 +42,8 @@ Built With
 
 Built By
 ===
-* [sharonzhou](github.com/sharonzhou)
-* [moue](github.com/moue)
-* [georgelok](github.com/georgelok)
-* [anway](github.com/anway)
-* [tmoon](github.com/tmoon)
+* @sharonzhou
+* @moue
+* @georgelok
+* @anway
+* @tmoon
