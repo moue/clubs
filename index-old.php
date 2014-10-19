@@ -2,10 +2,6 @@
   <meta charset="utf-8">
   <title>Join Harvard</title>
   
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  
   <!-- enables scaling for mobile devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -17,9 +13,7 @@
   <link href="css/styles.css" rel="stylesheet"/>
   <link href="css/box-top.css" rel="stylesheet"/>
   
-  <script src="http://code.jquery.com/jquery.js"></script>
-  <!--<script src="js/randomizer.js"></script>-->
-  
+  <script src="http://code.jquery.com/jquery.js"></script>  
 	
   <script>
   
@@ -54,9 +48,6 @@
 
 <?php
   include 'includes/header.php';
-  //include 'dump/main_page.php';
-  //include 'includes/fb/fbaccess.php';
-  //include 'includes/facebook/index.php';
 ?>
 
 	<div style="padding-top: 15px;">

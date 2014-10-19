@@ -11,7 +11,7 @@
 	
 	$row = mysql_fetch_array($result);
 	
-	// Grab Tags
+	// grab tags
 	  $tags_result = mysql_query("SELECT club_tag FROM club_tags WHERE club_id ='".$url."'") or die(mysql_error());
 	  
 	  echo $tags_result;
@@ -76,19 +76,4 @@
       <hr>
       <p>Number of Members: '.$size.'</p>
               <p>Involvement: '.$row["involvement"].'</p>'
-              /*
-        if(!empty($protected_email)):
-          '<p>Group Email: '.$protected_email.'</p>'
-        if(!empty($row["site"]))
-          echo '<p>Group Website: <a href='.$row["site"].'>'.$row["site"],'</a></p>';
-      ?>
-      </div>
-    
-    </div>  
-  </div>
-  <div class="modal-footer">
-    <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Close</button>
-  </div>
-</div>
-*/
 ?>

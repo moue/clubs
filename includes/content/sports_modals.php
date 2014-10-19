@@ -13,9 +13,6 @@
   <div class="modal-body">
     <div class="row-fluid">
       <div class="span8">
-      <?php
-        //echo $row["sport_html"];
-      ?>
       </div>
       <div class="span4">
       

@@ -12,11 +12,12 @@
 	} 
 	while ($row = mysql_fetch_array($result)) { 
 	  $cid = $row["club_id"];
-    // Grab Tags
+      
+      // grab tags
 	  $tags = mysql_query("SELECT club_tag FROM club_tags WHERE club_id ='".$row["club_id"]."'")
 	    or die(mysql_error());
 	    
-	  // Create Tag String
+	  // create tag string
 	  $class_tag_string = "";
 	  $tag_string = "";
 	  while($tag = mysql_fetch_array($tags)) {
@@ -27,11 +28,11 @@
   	    $tag_string = $tag_string . ", " . $refs_array[$tag["club_tag"]]; 
 	  }
 	 
-	  // This is for the clubs list
+	  // this is for the clubs list
 	  echo '<div class="item '.$class_tag_string.'"> <a href=#'.$row["club_id"].' data-toggle="modal">'
 	    .$row["name"].'</a> </div>';
 	  
-	  // This is for the modal view.
+	  // this is for the modal view
 	  include 'includes/content/clubs_modals.php';
 	}
     ?>
