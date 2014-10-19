@@ -36,7 +36,9 @@
   // trigger randomizer when user presses spacebar
   $(document).keydown(function(event){
     if(event.which == 32 || event.keycode == 32){
-        $("#index-randomizer").load('index-randomizer.php');
+        // $("#index-randomizer").fadeOut(100).load('index-randomizer.php').fadeIn(100);
+        // $("#index-randomizer").toggle('scale').load('index-randomizer.php').toggle('scale');
+        $("#index-randomizer").toggle({ effect: "scale", origin: "middle" }).load('index-randomizer.php').delay().toggle({ effect: "scale", origin: "middle" });
       }
     });
     

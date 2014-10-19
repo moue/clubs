@@ -95,16 +95,17 @@
         </div> <!-- span3 -->
         <div class="span9" style="margin-left: 0px" >
           <br>
+            <span>Search:&nbsp;</span>
             <input type="text" name="search-isotope" id="search-isotope" value class="span9 input-medium search-query">
             <!--<button type="submit" class="btn">Search</button>-->
-            <select class="span3">
+            <!-- <select class="span3">
               <option># of Members</option>
               <option>1</option>
               <option>2</option>
               <option>3</option>
               <option>4</option>
               <option>5</option>
-            </select>            
+            </select>  -->           
           <hr>
           <div class = "span12 container" style="margin-left:0px; min-height: 670px; overflow-x: hidden;" id="clubs_wrapper">
           
