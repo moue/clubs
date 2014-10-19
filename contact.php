@@ -16,7 +16,7 @@
         
 	?>  
     
-    <form method="POST" action="backend/contact2.php" class="form-horizontal">  
+    <form method="POST" action="send_email.php" class="form-horizontal">  
             <div class="control-group">  
                 <label class="control-label" for="input1">Name</label>  
                 <div class="controls">  
