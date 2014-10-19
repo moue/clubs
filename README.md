@@ -17,20 +17,20 @@ Features
 ==
 
 Randomizer
-=
+-
 Randomly generates 8 student organizations and 2 club sports to display upon key down. 
 
 Clubs
-=
-Lists all 500+ student organizations and club sports on one page
-Allows real-time search of keywords (matching on organization name)
-Filter by organization type (including new catagory of athletics)
+-
+* Lists all 500+ student organizations and club sports on one page  
+* Allows real-time search of keywords (matching on organization name)  
+* Filter by organization type (including new catagory of athletics)
 
 SQL + Scraping
-=
-Screen scraped organizations from OSL Student Organizations list: osl.fas.harvard.edu/student-organizations
-Screen scraped club sports from gocrimson.com
-Scraping folder includes scraping scripts
+-
+* Screen scraped organizations from OSL Student Organizations list: osl.fas.harvard.edu/student-organizations  
+* Screen scraped club sports from gocrimson.com  
+* Scraping folder includes scraping scripts
 
 Built With
 ==
@@ -42,8 +42,8 @@ Built With
 
 Built By
 ===
-* @sharonzhou
-* @moue
-* @georgelok
-* @anway
-* @tmoon
+* [sharonzhou](https://github.com/sharonzhou)
+* [moue](https://github.com/moue)
+* [georgelok](https://github.com/georgelok)
+* [anway](https://github.com/anway)
+* [tmoon](https://github.com/tmoon)
