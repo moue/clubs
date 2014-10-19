@@ -17,17 +17,17 @@ Features
 ==
 
 Randomizer
-==
+=
 Randomly generates 8 student organizations and 2 club sports to display upon key down. 
 
 Clubs
-==
+=
 Lists all 500+ student organizations and club sports on one page
 Allows real-time search of keywords (matching on organization name)
 Filter by organization type (including new catagory of athletics)
 
 SQL + Scraping
-==
+=
 Screen scraped organizations from OSL Student Organizations list: osl.fas.harvard.edu/student-organizations
 Screen scraped club sports from gocrimson.com
 Scraping folder includes scraping scripts
@@ -38,12 +38,12 @@ Built With
 * jQuery Isotope: http://isotope.metafizzy.co/
 * Underscore 1.5.1: http://underscorejs.org/
 * Bootstrap 2.3.1: http://getbootstrap.com/2.3.2/
-* Underscore.js 1.5.1: http://underscorejs.org
+* Underscore.js 1.5.1: http://underscorejs.org/
 
- Built By
- ===
- @sharonzhou
- @moue
- @georgelok
- @anway
- @tmoon
+Built By
+===
+* [sharonzhou](github.com/sharonzhou)
+* [moue](github.com/moue)
+* [georgelok](github.com/georgelok)
+* [anway](github.com/anway)
+* [tmoon](github.com/tmoon)
