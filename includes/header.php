@@ -48,9 +48,9 @@
           				<!-- add addtional navigation tabs here -->
             			<li><a href="index.php">Randomizer</a></li>
             			<li class="divider-vertical"></li>
-           				<li><a href="clubs.php">Clubs</a></li>
+           				<li><a href="clubs.php">All Clubs</a></li>
             			<li class="divider-vertical"></li>
-            			<li><a href="guides.php">Guides</a></li>
+            			<li><a href="guides.php">Guide</a></li>
             			<li class="divider-vertical"></li>
             			
             			<!-- display log in and log out depending on user's status 
@@ -64,8 +64,8 @@
             		        				
             			<li class="divider-vertical"></li>
             			-->
-            			<form class="navbar-search">
-              			<input type="text" class="search-query" placeholder="Search"></form>
+            			<!-- <form class="navbar-search">
+              			<input type="text" class="search-query" placeholder="Search"></form> -->
           			</ul>
         		</div> <!--/.nav-collapse -->
       		</div>

@@ -32,7 +32,7 @@
             <div class="control-group">  
                 <label class="control-label" for="input3">Message</label>  
                 <div class="controls">  
-                    <textarea name="contact_message" id="input3" rows="8" class="span5" placeholder="The message you want to send to me."></textarea>  
+                    <textarea name="contact_message" id="input3" rows="8" class="span5" placeholder="The message you want to send to us."></textarea>  
                 </div>  
             </div>  
             <div class="form-actions">  
