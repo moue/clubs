@@ -6,7 +6,7 @@
         		<a class="btn btn-navbar" data-toggle="collapse" data-target="#nav-top">
           			<span class="icon-bar"></span>
           			<span class="icon-bar"></span>
-          			<span class="icon-bar"></span>
+          			<!-- <span class="icon-bar"></span> -->
         		</a>
         		
         		<a class="brand" href="index.php">Join Harvard</a>
@@ -18,8 +18,8 @@
             			<li class="divider-vertical"></li>
            				<li><a href="clubs.php">All Clubs</a></li>
             			<li class="divider-vertical"></li>
-            			<li><a href="guides.php">Guide</a></li>
-            			<li class="divider-vertical"></li>
+            			<!-- <li><a href="guides.php">Guide</a></li>
+            			<li class="divider-vertical"></li> -->
             			
           			</ul>
         		</div> 
