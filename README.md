@@ -12,6 +12,7 @@ Harvard College Student Activities Finder
 	- [ ] Move database to AWS
 	- [ ] Point joinharvard.com to AWS
 - [ ] Get new Harvard url like activities.college.harvard.edu or activities.fas.harvard.edu
+- [ ] Have HUIT include application as an iframe in my.harvard.edu under the tab, 'Student Activities Finder'
 
 Features
 ==
@@ -35,7 +36,7 @@ SQL + Scraping
 
 Guides
 -
-User guide to choosing clubs with potential to become blog post series. 
+User guide to choosing clubs
 
 Built With
 ==
