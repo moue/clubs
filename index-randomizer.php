@@ -9,7 +9,7 @@
 	// grab 13 random clubs for the randomizer
 	$clubs_result = mysql_query('SELECT * FROM club_master ORDER BY RAND() LIMIT 8') or die(mysql_error());
 	
-	// grab tag references and create reference array
+	// Grab tag references and create reference array.	
 	$tag_ref = mysql_query("SELECT tag_id, tag_string FROM tag_ref")
 	  or die(mysql_error());
 	$refs_array = array();
@@ -17,15 +17,15 @@
 	  $refs_array[$ref["tag_id"]] = $ref["tag_string"];
 	} 
 
-  // create html for each club
+  // Create html for each club
 	while ($row = mysql_fetch_array($clubs_result)) { 
 	  $cid = $row["club_id"];
 	  
-    // grab tags
+    // Grab Tags
 	  $tags = mysql_query("SELECT club_tag FROM club_tags WHERE club_id ='".$row["club_id"]."'")
 	    or die(mysql_error());
 	    
-	  // create tag string
+	  // Create Tag String
 	  $class_tag_string = "";
 	  $tag_string = "";
 	  while($tag = mysql_fetch_array($tags)) {
@@ -36,11 +36,11 @@
   	    $tag_string = $tag_string . ", " . $refs_array[$tag["club_tag"]]; 
 	  }
 	 
-	  // this is for the clubs list
+	  // This is for the clubs list
 	  echo '<a href=#'.$row["club_id"].' data-toggle="modal"><div class="box '.$class_tag_string.'">' 
 	    .$row["name"].'</div></a>';
 	  
-	  // create html for modal view
+	  // Create html for modal view.
 	  include 'includes/content/clubs_modals.php';	  	 
 	}
 	
