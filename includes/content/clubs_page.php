@@ -64,7 +64,6 @@
                 Women's Initiative
               </label>
             </div>
-          </div>
         </div> <!-- span3 -->
         <div class="span9" style="margin-left: 0px" >
           <br>

@@ -16,10 +16,10 @@ function hide_email($email)
 }
 
 //define database constants
-define("DB_USER","user");
-define("DB_PASS","pass");
-define("DB_HOST","mysql.url.com");
-define("DB_NAME","db");
+define("DB_USER","root");
+define("DB_PASS","526jxqi");
+define("DB_HOST","localhost");
+define("DB_NAME","clubs");
 
 //create a DB connection
 $link = mysql_connect(DB_HOST, DB_USER, DB_PASS) or die('Could not connect to mysql server.');
