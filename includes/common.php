@@ -16,8 +16,9 @@ function hide_email($email)
 }
 
 //define database constants
+
 define("DB_USER","root");
-define("DB_PASS","526jxqi");
+define("DB_PASS","");
 define("DB_HOST","localhost");
 define("DB_NAME","clubs");
 
